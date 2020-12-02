@@ -1,0 +1,156 @@
+.btn.btn-primary,
+.submit {
+    background-color: #ff564f;
+    box-shadow: rgba(53, 79, 155, 0.35) 0 15px 30px -12px;
+    padding: 8px 16px;
+    margin-right: 10px;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    border: 0;
+    color: white;
+}
+
+.btn.btn-primary:focus,
+.btn.btn-primary:not(:disabled):not(.disabled):active,
+.submit {
+    background-color: #c92720;
+    border-style: none;
+}
+
+.btn.btn-primary:hover,
+.submit:hover {
+    background-color: #ff655e;
+    border-style: none;
+    box-shadow: none;
+}
+
+.submit {
+    margin-left: -15px;
+}
+
+.reset-form {
+    background-color: white;
+    border: 1px solid #ff564f;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    color: #ff564f;
+    padding: 8px 16px;
+}
+
+/* first page */
+
+.big-button .btn.btn-primary {
+    background-color: transparent;
+    color: #c92720;
+    font-weight: 700;
+    font-size: 1.3125rem;
+    width: 14rem;
+    border-radius: 0;
+    border-style: none;
+    line-height: 3rem;
+    padding: 0;
+}
+
+.big-button .btn.btn-primary:hover {
+    background-color: #ff655e;
+    border-style: none;
+    color: #fff;
+    font-weight: 600;
+    box-shadow: rgb(76, 100, 100) 5px 0 20px -3px;
+}
+
+@media (max-width: 960px) {
+    .big-button .btn.btn-primary {
+        font-size: 1rem;
+        padding: 5px;
+    }
+}
+
+.view_category_button .btn.btn-primary {
+    background: rgba(0, 0, 0, 0) !important;
+    border: rgba(0, 0, 0, 0) !important;
+    position: relative;
+    box-shadow: 5px 32px 62px -30px rgba(0,0,0,0.75);
+    padding: 0;
+    margin-bottom: 5px;
+    margin-right: 15px;
+    margin-left: 15px;
+    width: 100px;
+    height: 100px;
+}
+
+.password-card-pass-show .btn.btn-primary {
+    background: rgba(0, 0, 0, 0) !important;
+    border: rgba(0, 0, 0, 0) !important;
+    padding: 1px;
+    margin-bottom: 0;
+}
+
+#password_save_changes button{
+    background-color: limegreen;
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+    background-color: rgb(170, 170, 170) !important;
+    border-color: rgb(170, 170, 170) !important;
+}
+
+.black .btn.btn-primary,
+.black .submit {
+    background-color: #404040 !important;
+}
+
+.input-group-prepend psk-condition .btn.btn-primary, .submit {
+    padding: 7px 12px !important;
+    margin-right: 0 !important;
+    border-radius: 0 5px 5px 0 !important;
+}
+
+#category-menu psk-button button{
+    width: 50%;
+    float: right;
+    margin-bottom: 5px;
+}
+
+#category-menu-trigger button {
+    background-color: white;
+    width: 70px;
+    height: 70px;
+    font-size: 35px;
+    padding: 10px 15px 10px 20px;
+    box-shadow: 0 0 40px -20px black;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    border-radius: 25%;
+    float: right;
+}
+
+#category-menu .category-menu-item {
+    width: 150px;
+}
+
+.transparent-button .btn.btn-primary {
+    background-color: rgba(255, 255, 255, 0);
+    margin-bottom: 0 !important;
+    box-shadow: none;
+    margin-right: 0;
+}
+
+.transparent-button .btn.btn-primary psk-icon{
+    font-size: 25px;
+}
+
+.transparent-button .btn.btn-primary:focus,
+.transparent-button .btn.btn-primary:not(:disabled):not(.disabled):active,
+.transparent-button .btn.btn-primary:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+@media (max-width: 960px) {
+
+    #scan-app-button button{
+        width: 100%;
+    }
+
+}
+

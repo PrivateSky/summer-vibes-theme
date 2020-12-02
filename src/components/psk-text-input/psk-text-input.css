@@ -1,0 +1,26 @@
+psk-text-input.searchBar psk-input .form-group input {
+    width: 300px;
+}
+
+input[type="text"], select {
+    outline: none;
+}
+
+.password-card-info psk-condition psk-text-input psk-input psk-label label{
+    font-size: smaller;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.password_input psk-input .form-group input{
+    border-radius: 0.25rem 0 0 0.25rem;
+    border: 1px solid #ff564f !important;
+    background-color: #FFFFFF !important;
+    width: 365px !important;
+}
+
+@media (max-width: 960px) {
+    .password_input psk-input .form-group input{
+        width: 85% !important;
+    }
+}

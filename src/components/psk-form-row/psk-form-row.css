@@ -1,0 +1,83 @@
+.twoCharsCol {
+    display: grid;
+    grid-template-columns: 2ch auto;
+}
+
+#to {
+    display: grid;
+    grid-template-columns: 2ch;
+}
+
+.fiveCharsCol {
+    display: grid;
+    grid-template-columns: 5ch auto;
+}
+
+#twoRowsGrid {
+    display: grid;
+    grid-template-rows: 2ch;
+    padding-bottom: 30px;
+}
+
+.add_category_form_row psk-for-each.row_align {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: -15px;
+}
+
+.add_category_form_row .scrollable-box {
+    margin-bottom: 15px;
+}
+
+.add_category_form_row .right_align {
+    display: flex;
+    margin-right: 50px;
+}
+
+.add_category_form_row .right_align psk-icon span {
+    font-size: 30px;
+}
+
+.add_category_form_row .right_align psk-label {
+    margin-right: 10px;
+}
+
+.add_category_form_row .simple-flexible-row {
+    margin-bottom: 15px;
+}
+
+psk-button-group#category-actions div .list-group {
+    display: block;
+}
+
+.categories_align {
+    margin-left: -15px;
+}
+
+.two-elements-row {
+    display: inline-flex;
+    min-width: 100% !important;
+    margin-bottom: 20px;
+}
+
+.two-elements-row * {
+    margin: 0;
+    width: 95% !important;
+}
+
+.password-input-box psk-grid .row {
+    display: grid;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 960px) {
+    .add_category_form_row psk-for-each.row_align {
+        flex-wrap: wrap;
+    }
+
+
+    #category-actions {
+        display: none;
+    }
+}

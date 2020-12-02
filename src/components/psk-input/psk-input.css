@@ -1,0 +1,53 @@
+input.form-control:focus{
+    border-color:#fff;
+    box-shadow: 0px 0px 6px 1px #e9510e;
+}
+
+.password-card-info psk-text-input psk-input input{
+    border: 0 !important;
+    background: rgba(0,0,0,0) !important;
+}
+
+.password-card-info psk-text-input.editEnabled psk-input input{
+    border: 1px solid #ced4da !important;
+}
+
+.password-card-info psk-text-input psk-input .form-group{
+    padding-top: 0 !important;
+}
+
+.password-card-info psk-text-input.password-card-name-label psk-input input{
+    font-size: 18px;
+    font-weight: bold;
+    height: 35px;
+}
+
+.password-card-info .password_row psk-text-input psk-input input{
+    width: 400px;
+}
+
+.password_row .password_input_and_button_box{
+    display: flex !important;
+}
+
+.password-card-info psk-text-input.password-card-text-input-as-label psk-input input{
+    box-shadow: none !important;
+}
+
+psk-text-input psk-input .form-group {
+    margin-bottom: 0 !important;
+}
+
+@media (max-width: 960px) {
+    .password-card-info .password_row psk-text-input psk-input input{
+        width: 100% !important;
+    }
+
+    .password_row psk-input .form-group{
+        width: 250px;
+    }
+
+    .password_input_and_button_box psk-condition {
+        width: 700px;
+    }
+}

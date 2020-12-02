@@ -1,0 +1,74 @@
+img {
+    max-width: 100%;
+}
+
+.image_container {
+    text-align: center;
+}
+
+.image_description {
+    text-align: center;
+    padding: 10px;
+    font-style: italic;
+    font-size: 1rem;
+}
+
+.image_description::before {
+    content: "- ";
+}
+
+.image_description::after {
+    content: " -";
+}
+
+.image_wrapper {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.view_category_folder_image {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    display: contents;
+    margin-bottom: 15px;
+    z-index: 2;
+}
+
+.view_category_image {
+    position: absolute;
+    font-size: 200%;
+    width: 20px;
+    height: 30px;
+    display: block;
+    z-index: 3;
+    margin-top: 0;
+    margin-left: 0;
+    color: white;
+    top: 35px;
+    left: 33px;
+}
+
+.show_password_image {
+    width: 25px;
+    height: 25px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.show_password_image .image_container .image_wrapper {
+    padding-top: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+img .image_wrapper
+
+.view_category_folder {
+    padding: 10px;
+    width: fit-content;
+}
+
+.password-card-pass-box {
+    display: flex;
+}

@@ -1,0 +1,7 @@
+
+
+@media (max-width: 960px) {
+    .categories_align psk-for-each.row_align {
+        justify-content: space-around;
+    }
+}
